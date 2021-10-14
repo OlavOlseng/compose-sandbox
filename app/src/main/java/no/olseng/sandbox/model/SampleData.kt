@@ -11,7 +11,18 @@ class SampleData {
             Message("Anne-Borghild", "Bernt Rune og Ulf Ståle, dere er duster! Fisk er sunt, spesielt Makrell! Kom til meg på middag for panert Makrell, med gulrøtter, pasta og timian"),
             Message("Fleinmøy", "Jeg kommer!"),
             Message("Anne-Borghild", "Du er ikke invitert, Fleinmøy!"),
+            Message("Anne-Borghild", "Du er ikke invitert, Fleinmøy!"),
+            Message("Anne-Borghild", "Du er ikke invitert, Fleinmøy!"),
+            Message("Anne-Borghild", "Du er ikke invitert, Fleinmøy!"),
+            Message("Anne-Borghild", "Du er ikke invitert, Fleinmøy!"),
+            Message("Anne-Borghild", "Du er ikke invitert, Fleinmøy!"),
+            Message("Anne-Borghild", "Du er ikke invitert, Fleinmøy!"),
+            Message("Anne-Borghild", "Du er ikke invitert, Fleinmøy!"),
         )
+        val enormousSampleMessageList = List(1000) {
+            Message("${it.toChar()}", "Melding")
+
+        }
 
         val sampleMessage = Message(
             "Blemmefar",
